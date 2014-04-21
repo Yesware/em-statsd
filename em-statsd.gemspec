@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "em-statsd"
   gem.require_paths = ["lib"]
   gem.version       = EM::Statsd::VERSION
-  gem.add_dependency 'statsd-ruby', "~>0.2"
+  gem.add_dependency 'statsd-ruby'
   gem.add_dependency 'eventmachine', '~>1.0'
   gem.add_development_dependency(%q<minitest>, [">= 0"])
 
